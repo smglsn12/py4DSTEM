@@ -856,7 +856,7 @@ def plot_orientation_plan(
         plot_range_kx_ky=k_x_y_range,
         # scale_markers=10,
         # shift_labels=0.10,
-        input_fig_handle=[fig, ax],
+        input_fig_handle=[fig, ax[0]],
     )
 
     # Plot orientation plan
