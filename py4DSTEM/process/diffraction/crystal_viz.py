@@ -982,8 +982,7 @@ def plot_diffraction_pattern(
         fig, ax = plt.subplots(1, 1, figsize=figsize)
     else:
         fig = input_fig_handle[0]
-        ax_parent = input_fig_handle[1]
-        ax = ax_parent[0]
+        ax = input_fig_handle[1]
 
     if power_markers == 2:
         marker_size = scale_markers * bragg_peaks.data["intensity"]
